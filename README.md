@@ -18,9 +18,13 @@ F5を押したら[runファイル](https://github.com/RyuAmakaze/debugmode_docke
    docker run --rm --shm-size=2g --gpus all -v $(pwd):/app -w /app q-llp python src/run.py
    ```
 ## うまくいかんとき
+1. ポートチェック<br>
 ポート番号(ex:5678)既に使ってないかチェックしてください
    ```bash
    docker ps -a | grep 5678
    docker rm -f <該当ID>
    ```
+
+2. Debug anyway
+   VScodeが警告が出ても，Debug anyway一回やってみて
 
