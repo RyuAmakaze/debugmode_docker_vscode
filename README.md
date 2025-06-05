@@ -28,7 +28,7 @@ F5を押したら[runファイル](https://github.com/RyuAmakaze/debugmode_docke
 2. Debug anyway
    VScodeが警告が出ても，Debug anyway一回やってみて
 
-3. F5のlaunch.jsonの対象
+3. F5のlaunch.jsonの対象<br>
    SSH先のHomeディレクトリにある.vscode/launch.jsonがF5押した際の対象です
 
 ## デバッグモード解除
