@@ -28,3 +28,5 @@ F5を押したら[runファイル](https://github.com/RyuAmakaze/debugmode_docke
 2. Debug anyway
    VScodeが警告が出ても，Debug anyway一回やってみて
 
+## デバッグモード解除
+[ここらへん](https://github.com/RyuAmakaze/debugmode_docker_vscode/blob/main/src/run.py#L130-L141)を消してください
