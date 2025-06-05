@@ -2,7 +2,8 @@
 F5を押したら[runファイル](https://github.com/RyuAmakaze/debugmode_docker_vscode/blob/main/.vscode/tasks.json#L7)をデバッグモードで実行
 
 ## Vscode setting
-1. Dev Container install
+以下の拡張をインストール<br>
+1. Dev Container install (Dockerデバッグモード用)
 2. Python, Python Debugger install (ブレイク置く用)
 
 ## Docker build
