@@ -3,6 +3,7 @@ F5を押したら[runファイル](https://github.com/RyuAmakaze/debugmode_docke
 
 ## Vscode setting
 1. Dev Container install
+2. Python, Python Debugger install (ブレイク置く用)
 
 ## Docker build
 1. Docker イメージをビルド
