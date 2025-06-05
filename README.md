@@ -19,3 +19,8 @@ F5を押したら[runファイル](https://github.com/RyuAmakaze/debugmode_docke
    ```
 ## うまくいかんとき
 ポート番号(ex:5678)既に使ってないかチェックしてください
+   ```bash
+   docker ps -a | grep 5678
+   docker rm -f <該当ID>
+   ```
+
