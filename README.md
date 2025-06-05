@@ -1,4 +1,5 @@
 # デバッグモード in VScode, SSH, Docker
+F5を押したら[runファイル](https://github.com/RyuAmakaze/debugmode_docker_vscode/blob/main/.vscode/tasks.json#L7)をデバッグモードで実行
 
 ## Docker build
 1. Docker イメージをビルド
