@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "start-docker-run",
+      "type": "shell",
+      "command": "docker run --rm -it --shm-size=2g --gpus all -v ${workspaceFolder}:/app -w /app -p 5678:5678 q-llp python src/run.py",
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "panel": "shared"
+      }
+    }
+  ]
+}
