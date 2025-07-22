@@ -1,12 +1,12 @@
 # デバッグモード in VScode, SSH, Docker
 F5を押したら[runファイル](https://github.com/RyuAmakaze/debugmode_docker_vscode/blob/main/.vscode/tasks.json#L7)をデバッグモードで実行
 
-## Vscode setting
+## 1. Vscode setting
 以下の拡張をインストール<br>
 1. Dev Container install (Dockerデバッグモード用)
 2. Python, Python Debugger install (ブレイク置く用)
 
-## Docker build
+## 2. Docker build
 1. Docker イメージをビルド
    ```bash
    docker build -t q-llp -f Dockerfile/Dockerfile .
