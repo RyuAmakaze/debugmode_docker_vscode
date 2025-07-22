@@ -1,5 +1,5 @@
 # デバッグモード in VScode, SSH, Docker
-F5を押したら[runファイル](https://github.com/RyuAmakaze/debugmode_docker_vscode/blob/main/.vscode/tasks.json#L7)をデバッグモードで実行
+F5を押したら[run.py](https://github.com/RyuAmakaze/debugmode_docker_vscode/blob/main/.vscode/tasks.json#L7)をデバッグモードで実行
 
 ## 1. Vscode setting
 以下の拡張をインストール<br>
